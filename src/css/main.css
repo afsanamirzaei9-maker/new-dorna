@@ -335,7 +335,26 @@ a{
     font-size: 13px !important;
   }
 }
- 
+@media(max-width: 425px){
+  .menu-icon{
+    width: 14.5px;
+    height: 9.25px;
+  }
+  .logo-icon{
+    margin-left: 15px
+  }
+  .btn-contact {
+    font-weight: 500;
+    height: 32px;
+  }
+  .btn-menu {
+    width: 32px;
+    height: 32px;
+  }
+  .hero-subtitle-box{
+    margin-top: 0px;
+  }
+}
 /*--================== Mirzaei/Home-2 branch start point =================--*/
 
 
